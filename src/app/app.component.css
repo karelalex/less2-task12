@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: 10px repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px) 9px;
+}
+
+.digits {
+  line-height: 100px;
+}
+
+.letters {
+  text-align: center;
+}

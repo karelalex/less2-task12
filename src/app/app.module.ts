@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { BlackSquareComponent } from './black-square/black-square.component';
+import { WhiteSquareComponent } from './white-square/white-square.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlackSquareComponent,
+    WhiteSquareComponent
   ],
   imports: [
     BrowserModule
